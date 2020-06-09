@@ -1,0 +1,85 @@
+/* TEXT TITLES */
+
+// H1
+h1 {
+    padding: 0 0 1em;
+    font-family: $base-font;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 200;
+}
+
+// H2
+h2{
+    padding: 0 0 1em;
+    font-family: $base-font;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 200;
+}
+
+
+// H3
+h3{
+    padding: 1rem 0;
+    font-family: $base-font;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+
+// H4
+h4{
+    padding: 1rem 0;
+    font-family: $base-font;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+
+// H5
+h5{
+    padding: 1rem 0;
+    font-family: $base-font;
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+
+// H6
+h6{
+    padding: 1rem 0;
+    font-family: $base-font;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+
+// P
+p{
+    padding: 0;
+    font-family: $base-font;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+
+// LISTS
+ul, li, ol {
+    list-style: none;
+}
+
+// LINKS
+a {
+    text-decoration: none;
+    color: $main-text-color;
+    &:hover {
+      color: $main-text-color;
+      text-decoration: none;
+    }
+}

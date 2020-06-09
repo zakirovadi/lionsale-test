@@ -1,2 +1,6 @@
-@import './font/font'; //шрифты
-@import './main/color'; //цвета
+@import './main/colors'; //цвета
+@import './main/fonts'; //шрифты
+@import './main/base'; //базовые настройки
+@import './main/text'; //шрифты
+@import './main/container'; //главный контейнер
+@import './main/animation'; //keyframe

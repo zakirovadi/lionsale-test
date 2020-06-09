@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "lionsale",
   "version": "1.0.0",
   "description": "my webpack config",
   "main": "index.js",
@@ -10,13 +10,16 @@
     "serve": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
   },
   "keywords": [
-    "config"
+    "managment",
+    "sales",
+    "analytics"
   ],
   "author": "Diana Zakirova <zakirovadiana.mk@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.0.2",
+    "cross-env": "^7.0.2",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
@@ -29,5 +32,8 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0"
   }
 }

@@ -1,5 +1,5 @@
-// @import './style/main-config';
+@import './style/main-config';
 
-h1{
-    color: green;
-}
+@import './style/all-parts'; //all parts
+
+@import './style/layout/head'; //head section

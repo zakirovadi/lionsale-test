@@ -1,0 +1,63 @@
+/*RESET STYLES*/
+
+html {
+    height: 100%;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    color: $main-text-color; //(main/colors.scss)
+    font-family: $base-font; // (main/fonts.scss)
+    font-weight: 400;
+    font-size: 16px;
+    @media (min-width: 320px) and (max-width: 1024px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1000px) {
+        font-size: 14px;
+    }
+    @media (min-width: 1441px) {
+      font-size: 16px;
+    }
+    @media (min-width: 1800px) {
+        font-size: 18px;
+    }
+}
+
+body {
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+}
+
+// body{
+//     transform: rotate(90deg);
+
+//     >*{
+//         transform: rotate(-90deg);
+//     }
+// }
+  
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+  
+form {
+    margin: 0;
+    padding: 0;
+}
+  
+input, textarea {
+    border-radius: 0;
+    font-family: $base-font;  // (main/fonts.scss)
+    outline: none;
+    box-shadow: none;
+}
+  
+input[type="button"], input[type="submit"], button {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}

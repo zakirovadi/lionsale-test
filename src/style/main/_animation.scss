@@ -1,0 +1,11 @@
+@keyframes round{
+    to {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
