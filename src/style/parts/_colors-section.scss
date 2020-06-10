@@ -1,0 +1,10 @@
+.light-bg{
+    color: $dark-blue;
+    background-color: $white;
+}
+
+.dark-bg{
+    color: $white;
+    background: rgb(49,57,78);
+    background: linear-gradient(-16deg, rgba(49,57,78,1) 0%, rgba(4,15,20,1) 100%);
+}
