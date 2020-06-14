@@ -1,6 +1,6 @@
 .head{
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -62,7 +62,7 @@
         margin-left: 2rem;
 
         div{
-            height: 5px;
+            height: 0.25rem;
             width: 100%;
             background-color: $white;
             margin: 10px 0;
@@ -77,10 +77,14 @@
 .head-info{
     margin-left: 3rem;
     height: 100%;
+    max-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
+    .head-info-header{
+        margin-top: 7rem;
+    }
     .head-links-container{
         display: flex;
         margin: 3rem 0;
@@ -89,6 +93,10 @@
             display: flex;
             align-items: flex-end;
             margin-right: 1rem;
+
+            div{
+                margin-right: 0.5rem;
+            }
         }
     }
 }
@@ -141,7 +149,7 @@
     }
 }
 
-@media screen and (max-width: 1000px), screen and (max-height: 700px){
+@media screen and (max-width: 1000px){
     .head-info{
         flex-direction: row;
         flex-wrap: wrap;

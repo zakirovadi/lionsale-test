@@ -1,0 +1,47 @@
+.main-text{
+    position: relative;
+    margin: 15% 3% 0;
+
+    >*{
+        position: relative;
+    }
+    .head-letter{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-30%, -45%);
+        font-size: 20rem;
+        color: $head-letter-blue;
+        font-family: 'CormorantGaramond';
+
+        @media (min-width: 600px){
+            font-size: 25rem;
+        }
+        @media (min-width: 750px){
+            font-size: 30rem;
+        }
+        @media (min-width: 1024px){
+            font-size: 37rem;
+            transform: translate(-40%, -50%);
+        }
+    }
+
+    p{
+        padding-bottom: 3rem;
+        max-width: 100%;
+    }
+
+    
+    @media (min-width: 1024px){
+        margin-left: 3rem;
+
+        p{
+            max-width: 650px;
+        }
+    }
+    @media (min-width: 1600px){
+        p{
+            max-width: 750px;
+        }
+    }
+}

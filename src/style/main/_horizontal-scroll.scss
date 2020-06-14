@@ -1,0 +1,31 @@
+::-webkit-scrollbar { /* chrome based */
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+body{
+    overflow-y: scroll;
+}
+#full-page{
+    height: auto;
+    white-space: inherit;
+}
+section{
+    display: block;
+}
+
+@media (min-width: 1024px){
+    body{
+        overflow-y: hidden;
+    }
+    #full-page{
+        height: 100vh;
+        white-space: nowrap;
+    }
+    section{
+        display: inline-block;
+    }
+}

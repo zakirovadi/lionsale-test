@@ -1,6 +1,14 @@
 .little-strip{
-    width: 1.5rem;
-    height: 3px;
+    width: 1.2rem;
+    height: 1px;
     background-color: $white;
-    margin: 0 0.5rem 0.3rem 0;
+    margin-bottom: 0.4rem;
+    display: inline-block;
+}
+.little-strip-dark{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1px;
+    background-color: $blue-text;
+    margin-bottom: 0.4rem;
 }
