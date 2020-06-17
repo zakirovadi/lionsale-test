@@ -17,7 +17,7 @@ section{
     display: block;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1025px){
     body{
         overflow-y: hidden;
     }
@@ -27,5 +27,6 @@ section{
     }
     section{
         display: inline-block;
+        vertical-align: top;
     }
 }
