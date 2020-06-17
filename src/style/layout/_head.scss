@@ -3,6 +3,10 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+
+    @media (max-width: 1024px){
+        min-height: 100vw;
+    }
 }
 // лев на фоне
 .head-bg-img{

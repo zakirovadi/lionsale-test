@@ -13,3 +13,24 @@
     background-color: $blue-text;
     margin-bottom: 0.4rem;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+
+    @media (max-width: 1024px){
+        max-width: 300px;
+    }
+    p{
+        align-self: flex-start;
+        margin-bottom: 2rem;
+        font-family: 'CormorantGaramond';
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+    span{
+        align-self: center;
+        font-weight: 300;
+    }
+}

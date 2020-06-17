@@ -1,0 +1,27 @@
+.paralax{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 3rem 10%;
+
+    @media (max-width: 600px){
+        flex-direction: column;
+        justify-content: flex-end;
+
+        >.button,
+        >div{
+            order: 2;
+            align-self: flex-start;
+        }
+        h3{
+            order: 1;
+        }
+    }
+}
